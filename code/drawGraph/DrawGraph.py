@@ -92,17 +92,3 @@ class DrawGraph:
                 contours = find_contours(mask_img, 0.5)
                 draw_graph_on_mask()
                 draw_graph_on_raw()
-
-#     # 检测所有图形的轮廓
-#     #
-#
-#     # # 绘制轮廓
-#     # fig, (ax0, ax1) = plt.subplots(1, 2, figsize=(8, 8))
-#     # ax0.imshow(img, plt.cm.gray)
-#     # ax1.imshow(img, plt.cm.gray)
-#     # for n, contour in enumerate(contours):
-#     #     ax1.plot(contour[:, 1], contour[:, 0], linewidth=2)
-#     # ax1.axis('image')
-#     # ax1.set_xticks([])
-#     # ax1.set_yticks([])
-#     # plt.show()
